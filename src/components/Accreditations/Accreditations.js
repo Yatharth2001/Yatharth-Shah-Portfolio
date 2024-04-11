@@ -37,7 +37,7 @@ function Accreditations() {
               imgPath={iframe}
               isBlog={false}
               title="Cryptography"
-              description="Oct 5, 2023 |University of Maryland, College Park"
+              description="Oct 5, 2023 | University of Maryland, College Park"
             />
           </Col>{" "}
           <Col md={6} className="certificate-card">
