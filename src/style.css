@@ -85,7 +85,7 @@ button:focus {
 }
 
 .navbar {
-  height: 60px;
+  
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem ;
@@ -144,11 +144,13 @@ button:focus {
   opacity: 0.9 !important;
 }
 
+
+
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
+    padding:1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+     background-color: #181a27 !important; 
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
