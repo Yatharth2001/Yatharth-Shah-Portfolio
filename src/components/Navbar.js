@@ -36,7 +36,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <p style={{ fontSize: "36px", fontWeight: "600" }}>DJ.</p>{" "}
+          <p style={{ fontSize: "32px", fontWeight: "600" }}>YS.</p>{" "}
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -78,16 +78,7 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/accreditation"
-                onClick={() => updateExpanded(false)}
-              >
-                <ImBlog style={{ marginBottom: "2px" }} />
-                &nbsp;Accreditations
-              </Nav.Link>
-            </Nav.Item>
+           
             <Nav.Item>
               <Nav.Link
                 as={Link}

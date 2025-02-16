@@ -14,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Disha Jadav</h3>
+          <h3>Designed and Developed by Yatharth Shah</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} DJ</h3>
+          <h3>Copyright © {year} YS</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/dishajadav12"
+                href="https://github.com/Yatharth2001"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -33,22 +33,12 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/disha-jadav-606484209/"
+                href="https://www.linkedin.com/in/yatharth-shah15/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/dishaa.jadav"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
               </a>
             </li>
           </ul>

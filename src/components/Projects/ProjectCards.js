@@ -13,7 +13,7 @@ function ProjectCards(props) {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text
-          style={{ textAlign: "justify", margin: "10px", marginBottom: "30px" }}
+          style={{ textAlign: "left", margin: "10px", marginBottom: "30px", paddingRight: "10px" }} 
         >
           {props.description}
         </Card.Text>

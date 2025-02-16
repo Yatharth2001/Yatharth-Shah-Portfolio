@@ -10,8 +10,8 @@ function Type() {
           "Web designer",
           "Front-end Developer",
           "Computer Engineer",
-          "sometimes painter",
-          "Sometimes singer",
+          "Part-time Runner",
+          
         ],
         autoStart: true,
         loop: true,

@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
+ 
   DiGit,
   DiMysql,
 } from "react-icons/di";
@@ -36,7 +36,7 @@ function Techstack() {
 
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={3} md={2} className="tech-icons">
         <OverlayTrigger
           placement="bottom"
           overlay={<Tooltip>{iconTooltips.AiOutlineHtml5}</Tooltip>}
@@ -127,26 +127,8 @@ function Techstack() {
         </OverlayTrigger>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <OverlayTrigger
-          placement="bottom"
-          overlay={<Tooltip>{iconTooltips.DiMongodb}</Tooltip>}
-        >
-          <div>
-            <DiMongodb />
-          </div>
-        </OverlayTrigger>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <OverlayTrigger
-          placement="bottom"
-          overlay={<Tooltip>{iconTooltips.SiPostgresql}</Tooltip>}
-        >
-          <div>
-            <SiPostgresql />
-          </div>
-        </OverlayTrigger>
-      </Col>
+   
+
 
       <Col xs={4} md={2} className="tech-icons">
         <OverlayTrigger
@@ -158,26 +140,18 @@ function Techstack() {
           </div>
         </OverlayTrigger>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <OverlayTrigger
           placement="bottom"
-          overlay={<Tooltip>{iconTooltips.DiPython}</Tooltip>}
+          overlay={<Tooltip>{iconTooltips.DiMongodb}</Tooltip>}
         >
           <div>
-            <DiPython />
+            <DiMongodb />
           </div>
         </OverlayTrigger>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <OverlayTrigger
-          placement="bottom"
-          overlay={<Tooltip>{iconTooltips.CgCPlusPlus}</Tooltip>}
-        >
-          <div>
-            <CgCPlusPlus />
-          </div>
-        </OverlayTrigger>
-      </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <OverlayTrigger
           placement="bottom"

@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/women-web-developer-with-laptop.svg";
+import homeLogo from "../../Assets/img1.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import "../../App.css"
 
 function Home() {
   return (
@@ -22,7 +23,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> DISHA JADAV</strong>
+                <strong className="main-name"> Yatharth Shah</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -34,7 +35,7 @@ function Home() {
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
+                className="img-fluid hero" 
                 style={{ maxHeight: "450px" }}
               />
             </Col>
@@ -47,3 +48,4 @@ function Home() {
 }
 
 export default Home;
+

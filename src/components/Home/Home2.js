@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/home_avatar.png";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,32 +16,23 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              Who<span className="purple"> I</span> Am?
+              Who am<span className="purple"> I</span> ?
             </h1>
             <p className="home-about-body">
-              I am just a girl who got curious about how computer works while
-              sitting in computer lab during her primary education and started
-              exploring about computers and never stopped...
+              I am just a boy who got curious about how computers work while
+              sitting in a computer lab during my early education. That
+              curiosity turned into a passion, and I have been exploring the
+              world of technology ever since.
               <br />
-              <br /> Designing is my hobby and Developing is my passion.
-              <i>
-                <b className="purple">
-                  {" "}
-                  So, getting bored is never an option.{" "}
-                </b>
-              </i>
-              <br />
-              <br />
-              My field of Interests are building and designing new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Artificial intelligence.</b>
-              </i>
-              <br />
-              <br />I am a person who likes to explore and learn new things at
-              every stage of my life and meeting new people and learning
-              something from them is my key to grow as a person.{" "}
+              <br /> My interests lie in building and designing innovative web
+              technologies and products, along with exploring areas related to
+              artificial intelligence. <br />
+              <br /> I am someone who loves to explore and learn new things at
+              every stage of life. Meeting new people, sharing experiences, and
+              learning from them is what helps me grow as a person. <br />
+
+              <br /> Beyond coding, I enjoy running, playing Valorant, and badminton.
+              These keep me active and energized, both physically and mentally.
             </p>
           </Col>
           <Col md={4} className="myAvtar my-5">
@@ -59,7 +50,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/dishajadav12"
+                  href="https://github.com/Yatharth2001"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -69,22 +60,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/disha-jadav-606484209/"
+                  href="https://www.linkedin.com/in/yatharth-shah15/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/dishaa.jadav"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
