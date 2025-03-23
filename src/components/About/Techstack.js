@@ -6,11 +6,10 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
- 
   DiGit,
   DiMysql,
 } from "react-icons/di";
-import { SiRedux, SiNextdotjs, SiPostgresql } from "react-icons/si";
+import { SiRedux, SiNextdotjs, SiPostgresql, SiSupabase, SiPrisma } from "react-icons/si"; // Added Supabase and Prisma
 import { FaBootstrap } from "react-icons/fa";
 import { TbBrandTypescript, TbBrandCss3 } from "react-icons/tb";
 import { AiOutlineHtml5 } from "react-icons/ai";
@@ -28,6 +27,8 @@ function Techstack() {
     SiRedux: "Redux",
     SiNextdotjs: "Next.js",
     SiPostgresql: "PostgreSQL",
+    SiSupabase: "Supabase", // Tooltip for Supabase
+    SiPrisma: "Prisma", // Tooltip for Prisma
     FaBootstrap: "Bootstrap",
     TbBrandTypescript: "TypeScript",
     AiOutlineHtml5: "HTML5",
@@ -126,10 +127,6 @@ function Techstack() {
           </div>
         </OverlayTrigger>
       </Col>
-
-   
-
-
       <Col xs={4} md={2} className="tech-icons">
         <OverlayTrigger
           placement="bottom"
@@ -140,7 +137,6 @@ function Techstack() {
           </div>
         </OverlayTrigger>
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <OverlayTrigger
           placement="bottom"
@@ -151,7 +147,6 @@ function Techstack() {
           </div>
         </OverlayTrigger>
       </Col>
-     
       <Col xs={4} md={2} className="tech-icons">
         <OverlayTrigger
           placement="bottom"
@@ -159,6 +154,28 @@ function Techstack() {
         >
           <div>
             <DiGit />
+          </div>
+        </OverlayTrigger>
+      </Col>
+      {/* Added Supabase */}
+      <Col xs={4} md={2} className="tech-icons">
+        <OverlayTrigger
+          placement="bottom"
+          overlay={<Tooltip>{iconTooltips.SiSupabase}</Tooltip>}
+        >
+          <div>
+            <SiSupabase />
+          </div>
+        </OverlayTrigger>
+      </Col>
+      {/* Added Prisma */}
+      <Col xs={4} md={2} className="tech-icons">
+        <OverlayTrigger
+          placement="bottom"
+          overlay={<Tooltip>{iconTooltips.SiPrisma}</Tooltip>}
+        >
+          <div>
+            <SiPrisma />
           </div>
         </OverlayTrigger>
       </Col>
